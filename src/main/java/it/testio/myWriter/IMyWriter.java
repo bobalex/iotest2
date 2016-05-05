@@ -1,4 +1,4 @@
-package it.testio.interfaces;
+package it.testio.myWriter;
 
 
 import java.io.OutputStream;
@@ -11,5 +11,7 @@ public interface IMyWriter {
      * This is method of myWiter.
      * @param
      */
-    public String myWrite(byte[] data, OutputStream streamDesc) throws Exception;
+    OutputStream openStream(String name) throws Exception;
+    String myWrite(byte[] data, OutputStream streamDesc) throws Exception;
+
 }

@@ -1,6 +1,6 @@
-package it.testio.transformerClass;
+package it.testio.myTransformer;
 import org.apache.commons.lang.StringUtils;
-import it.testio.interfaces.IMyTransformer;
+import it.testio.myTransformer.IMyTransformer;
 
 /**
  * Created by test on 29.04.16.

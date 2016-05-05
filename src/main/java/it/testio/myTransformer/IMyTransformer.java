@@ -1,4 +1,4 @@
-package it.testio.interfaces;
+package it.testio.myTransformer;
 
 /**
  * Created by test on 28.04.16.

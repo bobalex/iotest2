@@ -1,4 +1,4 @@
-package it.testio.interfaces;
+package it.testio.myReader;
 
 import java.io.InputStream;
 
@@ -10,5 +10,6 @@ public interface IMyReader {
      * This is method for reading.
      * @return byte.
      */
+    InputStream openStream(String name) throws Exception;
     byte[] myRead(InputStream inFile) throws Exception;
 }
